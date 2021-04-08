@@ -93,6 +93,10 @@ body {
   line-height: 1;
 }
 
+.session-title::first-letter {
+  text-transform: capitalize;
+}
+
 .time {
   margin: 5px;
   font-size: 94px;

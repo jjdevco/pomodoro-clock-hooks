@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Iceland&display=swap");
+
+html {
+  font-family: "Gloria Hallelujah", cursive;
+  cursor: default;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: #00796b;
+  color: #e0e0e0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.controls {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.break-ctrl,
+.session-ctrl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtitle {
+  margin: 10px 0 10px 0;
+}
+
+.inner-ctrl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text {
+  font-size: 28px;
+  margin: 0px 10px 0px 10px;
+}
+
+.display-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.display {
+  font-family: "Iceland", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  min-height: 350px;
+  background: #00695c;
+  border: 10px solid #004d40;
+  border-radius: 50%;
+}
+
+.session-title {
+  margin: 5px;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.time {
+  margin: 5px;
+  font-size: 94px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 10px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 32px;
+  color: #80cbc4;
+}
+
+.button:hover {
+  opacity: 0.6;
+}
+
+.button:active {
+  color: #e65100;
+}
+
+.buttons {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.play,
+.reset {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.play .button {
+  color: #0cc999;
+}
+
+.reset .button {
+  color: #263238;
+}
+
+.btn-label {
+  margin: 5px 0 5px 0;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 628px) {
+  .controls {
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .display {
+    min-height: 250px;
+  }
+
+  .session-title {
+    font-size: 42px;
+  }
+
+  .time {
+    font-size: 64px;
+  }
+}
+
+.author {
+  color: white;
+}
+
+.author a {
+  color: lightgray;
+}

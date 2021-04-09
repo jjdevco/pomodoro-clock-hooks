@@ -186,7 +186,7 @@ function App() {
         <audio
           ref={beepRef}
           id="beep"
-          src="http://www.peter-weinberg.com/files/1014/8073/6015/BeepSound.wav"
+          src="https://soundbible.com/mp3/analog-watch-alarm_daniel-simion.mp3"
         />
       </div>
     </div>
